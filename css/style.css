@@ -1,0 +1,12 @@
+/* css/style.css */
+/* You can add minor overrides here – Tailwind already does almost everything */
+body {
+  transition: background-color 0.3s ease;
+}
+
+/* optional: smooth theme switch for all elements */
+* {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
